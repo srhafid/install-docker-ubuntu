@@ -2,6 +2,9 @@
 
 set -e  # Exit immediately if a command exits with a non-zero status
 
+# Ensure the script has execute permissions
+chmod +x "$0"
+
 # Update packages and install necessary dependencies
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y ca-certificates curl gnupg lsb-release
@@ -37,6 +40,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 # Verify Docker Compose installation
 docker-compose --version
+
+# Clean up: Remove this script after execution
+rm -- "$0"
 
 echo "🚀 Docker and Docker Compose were installed successfully!"
 echo "⚠️ Please log out and log back in (or restart your terminal) to apply the Docker group changes."
