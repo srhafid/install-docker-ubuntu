@@ -7,6 +7,7 @@ This repository provides a simple Bash script to install **Docker Engine**, **Do
 ## 📄 File
 
 - [`install-docker.sh`](./install-docker.sh) – Fully automated installation script.
+- [`uninstall-docker.sh`](./uninstall-docker.sh) – Fully automated uninstall script.
 
 ---
 
