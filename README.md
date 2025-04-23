@@ -29,7 +29,7 @@ This repository provides a simple Bash script to install **Docker Engine**, **Do
 curl -O https://raw.githubusercontent.com/srhafid/install-docker-ubuntu/main/install-docker.sh
 ```
 
-### 2. Or uninstall docker and docker compose
+### 2. Or uninstall Docker and Docker-Compose
 
 ```bash
 curl -O https://raw.githubusercontent.com/srhafid/install-docker-ubuntu/main/uninstall-docker.sh
