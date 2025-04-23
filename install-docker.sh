@@ -3,7 +3,7 @@
 set -e  # Exit immediately if a command exits with a non-zero status
 
 # Ensure the script has execute permissions
-chmod +x "$0"
+# chmod +x "$0"
 
 # Update packages and install necessary dependencies
 sudo apt update && sudo apt upgrade -y
